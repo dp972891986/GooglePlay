@@ -116,9 +116,9 @@ public abstract class BaseFragment extends Fragment {
      * @called 触发加载数据, 数据加载完成后, 并且数据加载成功后
      */
     public abstract View initSuccessView();
-
     /**
      * @param resObj
+
      * @des 根据返回回来的数据, 返回具体的状态
      */
     public LoadingPager.LoadedResultState checkResData(Object resObj) {
